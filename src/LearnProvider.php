@@ -21,7 +21,7 @@ class LearnProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__) . '/config/learn.php', 'learn'
+            dirname(__DIR__) . '/src/config/learn.php', 'learn'
         );
     }
 }
