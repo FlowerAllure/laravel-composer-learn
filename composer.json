@@ -2,6 +2,10 @@
     "name": "flowerallure/laravel-composer-learn",
     "description": "Laravel Composer Learn",
     "type": "library",
+    "keywords": [
+        "laravel",
+        "learn"
+    ],
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "^5.7|^5.8|^6.0|^7.0|^8.0"
