@@ -11,7 +11,7 @@ class LearnProvider extends ServiceProvider
     {
         if (!file_exists(config_path('learn.php'))) {
             $this->publishes([
-                dirname(__DIR__) . '/config/learn.php' => config_path('learn.php'),
+                dirname(__DIR__) . '/src/config/learn.php' => config_path('learn.php'),
             ], 'config');
         } else {
             echo "learn.php has exist";
