@@ -1,0 +1,29 @@
+{
+    "name": "flowerallure/laravel-composer-learn",
+    "description": "Laravel Composer Learn",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "^5.7|^5.8|^6.0|^7.0|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flowerallure\\LaravelComposerLearn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "feng.pan",
+            "email": "feng.pan@mail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IImageProvider"
+            ]
+        }
+    }
+}
